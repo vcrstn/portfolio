@@ -1,10 +1,17 @@
 export type IconProps = {
-  name: "arrow" | "github" | "linkedin" | "mail";
+  name: "arrow" | "check" | "copy" | "github" | "linkedin" | "mail";
 };
 
 export default function Icon({ name }: IconProps) {
   const paths = {
     arrow: <path d="M5 12h14m-5-5 5 5-5 5" />,
+    check: <path d="M20 6 9 17l-5-5" />,
+    copy: (
+      <>
+        <rect width="13" height="13" x="9" y="9" rx="2" />
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+      </>
+    ),
     github: (
       <path d="M15 22v-3.9c.04-1-.35-1.96-1.1-2.6 3.6-.4 7.38-1.77 7.38-8A6.24 6.24 0 0 0 19.6 3.1 5.8 5.8 0 0 0 19.45 0S18.4-.35 15 1.68a15.4 15.4 0 0 0-8 0C3.6-.35 2.55 0 2.55 0A5.8 5.8 0 0 0 2.4 3.1 6.24 6.24 0 0 0 .72 7.5c0 6.22 3.78 7.6 7.38 8A3.3 3.3 0 0 0 7 18.08V22m0-3c-3 .92-3-1.5-4.2-2" />
     ),
