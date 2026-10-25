@@ -71,6 +71,7 @@ export const projects: ProjectItem[] = [
     category: "Student Allowance & Expense Tracker",
     previewTitle: "BaonWise Web App",
     previewSubtitle: "Budget planner & affordability insights",
+    imageUrl: "/projects/baonwise.png",
     problem:
       "Students frequently struggle to manage daily allowances and make informed spending decisions, often running out of budget before the week ends.",
     contribution:
@@ -88,6 +89,7 @@ export const projects: ProjectItem[] = [
     category: "Developer Workspace & Productivity",
     previewTitle: "DevLit Workspace",
     previewSubtitle: "Track projects, snippets & learning goals",
+    imageUrl: "/projects/devlit.png",
     problem:
       "Self-directed developers need a focused, centralized space to organize active side projects, catalog reusable code snippets, and track ongoing learning goals.",
     contribution:
@@ -105,6 +107,7 @@ export const projects: ProjectItem[] = [
     category: "Habit & Task Accountability App",
     previewTitle: "FollowThru Web App",
     previewSubtitle: "Gentle accountability for real life",
+    imageUrl: "/projects/followthru.png",
     problem:
       "Overwhelming to-do lists and procrastination often hinder initial action, making it difficult for individuals to follow through on daily priorities.",
     contribution:
