@@ -35,8 +35,8 @@ export const profile = {
   // Update these with your exact profile URLs when ready:
   githubUrl: "https://github.com/vcrstn",
   githubDisplay: "github.com/vcrstn",
-  linkedinUrl: "https://www.linkedin.com",
-  linkedinDisplay: "LinkedIn profile (update URL in portfolioData.ts)",
+  linkedinUrl: "https://www.linkedin.com/in/vict-christine-de-asis-a858b2427",
+  linkedinDisplay: "linkedin.com/in/vict-christine-de-asis",
 };
 
 export const statusItems: StatusItem[] = [
