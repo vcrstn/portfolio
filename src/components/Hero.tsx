@@ -26,7 +26,7 @@ export default function Hero() {
 
       <div className="portrait-wrap hero-portrait-animate">
         <img
-          src="/leaf-corner.png"
+          src="/leaf-corner-design.png"
           alt=""
           aria-hidden="true"
           className="leaf-corner"
