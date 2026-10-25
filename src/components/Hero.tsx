@@ -32,12 +32,18 @@ export default function Hero() {
           className="botanical-branch"
         />
         <div className="portrait-card">
-          <div className="portrait-monogram" aria-hidden="true">
-            {profile.initials}
+          <div className="portrait-photo-frame">
+            <img
+              src="/profile-portrait.jpg"
+              alt={profile.fullName}
+              className="portrait-photo"
+            />
           </div>
-          <span>{profile.status}</span>
-          <strong>{profile.fullName}</strong>
-          <small>{profile.role}</small>
+          <div className="portrait-info">
+            <span>{profile.status}</span>
+            <strong>{profile.fullName}</strong>
+            <small>{profile.role}</small>
+          </div>
         </div>
         <p className="portrait-caption">
           <span>01</span> Frontend developer in progress
