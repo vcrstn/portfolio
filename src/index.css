@@ -247,7 +247,7 @@ h1 {
   color: var(--plum);
 }
 
-/* Portrait Card & Botanical Illustration */
+/* Portrait Card & Floral Corner Ornament */
 .portrait-wrap {
   justify-self: center;
   max-width: 340px;
@@ -341,17 +341,30 @@ h1 {
   width: 30px;
 }
 
-.botanical-branch {
+.floral-corner-ornament {
   height: auto;
+  object-fit: contain;
   pointer-events: none;
   position: absolute;
-  right: -32px;
-  top: -50px;
-  transform: rotate(-12deg);
+  right: -25px;
+  top: -38px;
   user-select: none;
-  width: 140px;
-  z-index: 2;
-  filter: drop-shadow(0 4px 14px rgba(44, 41, 39, 0.08));
+  width: 170px;
+  z-index: 0;
+}
+
+@media (max-width: 420px) {
+  .floral-corner-ornament {
+    right: -18px;
+    top: -28px;
+    width: 135px;
+  }
+}
+
+@media (max-width: 360px) {
+  .floral-corner-ornament {
+    display: none;
+  }
 }
 
 /* Top Ticker / Marquee (Mobile-First) */
@@ -1090,10 +1103,10 @@ footer a:hover {
     padding: 60px 36px 96px;
   }
 
-  .botanical-branch {
-    right: -42px;
-    top: -62px;
-    width: 175px;
+  .floral-corner-ornament {
+    right: -45px;
+    top: -50px;
+    width: 230px;
   }
 
   .marquee {
@@ -1192,11 +1205,10 @@ footer a:hover {
     width: 100%;
   }
 
-  .botanical-branch {
-    right: -56px;
-    top: -72px;
-    transform: rotate(-10deg);
-    width: 210px;
+  .floral-corner-ornament {
+    right: -60px;
+    top: -65px;
+    width: 280px;
   }
 
   .section {

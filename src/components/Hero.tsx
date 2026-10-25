@@ -26,10 +26,10 @@ export default function Hero() {
 
       <div className="portrait-wrap hero-portrait-animate">
         <img
-          src="/botanical-branch.png"
+          src="/floral-corner-ornament.png"
           alt=""
           aria-hidden="true"
-          className="botanical-branch"
+          className="floral-corner-ornament"
         />
         <div className="portrait-card">
           <div className="portrait-photo-frame">
