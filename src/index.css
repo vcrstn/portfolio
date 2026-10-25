@@ -340,57 +340,17 @@ h1 {
   width: 30px;
 }
 
-.botanical {
-  height: 175px;
+.botanical-branch {
+  height: auto;
   pointer-events: none;
   position: absolute;
-  right: -34px;
-  top: -52px;
-  transform: rotate(-22deg) scale(0.88);
-  width: 110px;
+  right: -32px;
+  top: -50px;
+  transform: rotate(-12deg);
+  user-select: none;
+  width: 140px;
   z-index: 2;
-}
-
-.botanical::before {
-  background: var(--sage);
-  content: "";
-  height: 100%;
-  left: 50%;
-  position: absolute;
-  transform: rotate(16deg);
-  width: 2px;
-}
-
-.botanical i {
-  background: var(--sage);
-  border-radius: 100% 0 100% 0;
-  height: 48px;
-  position: absolute;
-  width: 24px;
-}
-
-.botanical i:nth-child(1) {
-  left: 26px;
-  top: 20px;
-  transform: rotate(-42deg);
-}
-
-.botanical i:nth-child(2) {
-  right: 8px;
-  top: 58px;
-  transform: rotate(30deg);
-}
-
-.botanical i:nth-child(3) {
-  left: 20px;
-  top: 95px;
-  transform: rotate(-48deg);
-}
-
-.botanical i:nth-child(4) {
-  right: -2px;
-  top: 128px;
-  transform: rotate(35deg);
+  filter: drop-shadow(0 4px 14px rgba(44, 41, 39, 0.08));
 }
 
 /* Top Ticker / Marquee (Mobile-First) */
@@ -1129,6 +1089,12 @@ footer a:hover {
     padding: 60px 36px 96px;
   }
 
+  .botanical-branch {
+    right: -42px;
+    top: -62px;
+    width: 175px;
+  }
+
   .marquee {
     padding: 16px 0;
   }
@@ -1225,10 +1191,11 @@ footer a:hover {
     width: 100%;
   }
 
-  .botanical {
-    right: -64px;
-    top: -68px;
-    transform: rotate(-22deg) scale(1);
+  .botanical-branch {
+    right: -56px;
+    top: -72px;
+    transform: rotate(-10deg);
+    width: 210px;
   }
 
   .section {

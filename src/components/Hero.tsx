@@ -25,12 +25,12 @@ export default function Hero() {
       </div>
 
       <div className="portrait-wrap hero-portrait-animate">
-        <div className="botanical botanical-one" aria-hidden="true">
-          <i />
-          <i />
-          <i />
-          <i />
-        </div>
+        <img
+          src="/botanical-branch.png"
+          alt=""
+          aria-hidden="true"
+          className="botanical-branch"
+        />
         <div className="portrait-card">
           <div className="portrait-monogram" aria-hidden="true">
             {profile.initials}
