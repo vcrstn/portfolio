@@ -2,7 +2,9 @@
 
 > A responsive, editorial-inspired developer portfolio built with **React 19**, **TypeScript**, **Vite**, and **GSAP**. Designed to showcase featured web applications, frontend engineering fundamentals, and thoughtful user interfaces.
 
-![Portfolio Banner](public/projects/devlit.png)
+Live Demo: [vict-portfolio.vercel.app](https://vict-portfolio.vercel.app/)
+
+![Portfolio Landing Page](public/portfolio-preview.png)
 
 ---
 
@@ -63,7 +65,8 @@ Portfolio/
 │   │   ├── baonwise.png
 │   │   ├── devlit.png
 │   │   └── followthru.png
-│   ├── leaf-corner.png         # Sage-green botanical corner accent
+│   ├── leaf-corner-design.png  # Sage-green botanical corner accent
+│   ├── portfolio-preview.png   # Landing page preview banner
 │   ├── profile-portrait.jpg    # Hero profile photo
 │   └── favicon.svg
 ├── src/
