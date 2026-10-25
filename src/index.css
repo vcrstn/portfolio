@@ -252,7 +252,9 @@ h1 {
   justify-self: center;
   max-width: 340px;
   position: relative;
+  position: relative;
   width: 86%;
+  overflow: visible;
 }
 
 .portrait-card {
@@ -342,16 +344,16 @@ h1 {
 }
 
 .leaf-corner {
-  filter: drop-shadow(0 2px 8px rgba(44, 41, 39, 0.08));
+  position: absolute;
+  top: -50px;
+  right: -28px;
+  width: 145px;
   height: auto;
   object-fit: contain;
   pointer-events: none;
-  position: absolute;
-  right: -28px;
-  top: -50px;
   user-select: none;
-  width: 145px;
-  z-index: 2;
+  filter: drop-shadow(0 2px 8px rgba(44, 41, 39, 0.08));
+  z-index: 10;
 }
 
 @media (max-width: 420px) {
