@@ -7,10 +7,10 @@ export default function Hero() {
       <div className="hero-copy">
         <p className="eyebrow hero-animate">{profile.eyebrow}</p>
         <h1 className="hero-animate">
-          <span className="hero-line">{profile.name}</span>
-          <span className="hero-line">Turning practical ideas</span>
+          <span className="hero-line hero-name">{profile.name}</span>
+          <span className="hero-line">Turning ideas into</span>
           <span className="hero-line">
-            into <em className="hero-italic">thoughtful web experiences.</em>
+            <em className="hero-italic">thoughtful web experiences.</em>
           </span>
         </h1>
         <p className="hero-intro hero-animate">{profile.heroIntro}</p>

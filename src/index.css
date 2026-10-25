@@ -2,13 +2,13 @@
 
 :root {
   --clay: #a27560;
-  --plum: #70437e;
+  --plum: #784783;
   --lilac: #d3a7d9;
   --sage: #98a669;
   --yellow: #dbd87e;
   --peach: #f4cfac;
   --cream: #f7f1e8;
-  --ink: #2c2927;
+  --ink: #292624;
   --muted: #57524e;
   --line: rgba(44, 41, 39, 0.22);
 }
@@ -185,20 +185,28 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(38px, 10.5vw, 68px);
-  letter-spacing: -0.045em;
-  line-height: 0.98;
-  margin: 26px 0 30px;
+  color: var(--ink);
+  font-size: clamp(34px, 9.6vw, 62px);
+  letter-spacing: -0.04em;
+  line-height: 1.02;
+  margin: 22px 0 28px;
 }
 
 .hero-line {
   display: block;
 }
 
+.hero-name {
+  color: var(--ink);
+  margin-bottom: 2px;
+}
+
 .hero-italic {
   color: var(--plum);
+  font-family: "Fraunces", serif;
   font-style: italic;
   font-weight: 400;
+  letter-spacing: -0.035em;
 }
 
 .hero-intro {
@@ -1193,9 +1201,10 @@ footer a:hover {
   }
 
   h1 {
-    font-size: clamp(50px, 5.6vw, 84px);
-    line-height: 0.94;
-    margin: 30px 0 36px;
+    font-size: clamp(46px, 5vw, 76px);
+    letter-spacing: -0.045em;
+    line-height: 0.98;
+    margin: 26px 0 34px;
   }
 
   .hero-intro {
