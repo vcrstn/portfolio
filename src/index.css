@@ -342,22 +342,23 @@ h1 {
 }
 
 .leaf-corner {
+  filter: drop-shadow(0 2px 8px rgba(44, 41, 39, 0.08));
   height: auto;
   object-fit: contain;
   pointer-events: none;
   position: absolute;
-  right: -24px;
-  top: -46px;
+  right: -28px;
+  top: -50px;
   user-select: none;
-  width: 135px;
-  z-index: 0;
+  width: 145px;
+  z-index: 2;
 }
 
 @media (max-width: 420px) {
   .leaf-corner {
-    right: -16px;
-    top: -34px;
-    width: 105px;
+    right: -18px;
+    top: -38px;
+    width: 115px;
   }
 }
 
@@ -1104,9 +1105,9 @@ footer a:hover {
   }
 
   .leaf-corner {
-    right: -32px;
-    top: -56px;
-    width: 165px;
+    right: -38px;
+    top: -65px;
+    width: 180px;
   }
 
   .marquee {
@@ -1206,9 +1207,9 @@ footer a:hover {
   }
 
   .leaf-corner {
-    right: -42px;
-    top: -70px;
-    width: 195px;
+    right: -48px;
+    top: -80px;
+    width: 215px;
   }
 
   .section {
