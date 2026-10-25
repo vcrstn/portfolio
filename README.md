@@ -63,7 +63,7 @@ Portfolio/
 │   │   ├── baonwise.png
 │   │   ├── devlit.png
 │   │   └── followthru.png
-│   ├── floral-corner-ornament.png # Vintage floral flourish accent
+│   ├── leaf-corner.png         # Sage-green botanical corner accent
 │   ├── profile-portrait.jpg    # Hero profile photo
 │   └── favicon.svg
 ├── src/

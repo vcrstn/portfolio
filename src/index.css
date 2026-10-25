@@ -247,7 +247,7 @@ h1 {
   color: var(--plum);
 }
 
-/* Portrait Card & Floral Corner Ornament */
+/* Portrait Card & Sage-Green Leaf Corner Accent */
 .portrait-wrap {
   justify-self: center;
   max-width: 340px;
@@ -341,28 +341,28 @@ h1 {
   width: 30px;
 }
 
-.floral-corner-ornament {
+.leaf-corner {
   height: auto;
   object-fit: contain;
   pointer-events: none;
   position: absolute;
-  right: -25px;
-  top: -38px;
+  right: -24px;
+  top: -46px;
   user-select: none;
-  width: 170px;
+  width: 135px;
   z-index: 0;
 }
 
 @media (max-width: 420px) {
-  .floral-corner-ornament {
-    right: -18px;
-    top: -28px;
-    width: 135px;
+  .leaf-corner {
+    right: -16px;
+    top: -34px;
+    width: 105px;
   }
 }
 
 @media (max-width: 360px) {
-  .floral-corner-ornament {
+  .leaf-corner {
     display: none;
   }
 }
@@ -1103,10 +1103,10 @@ footer a:hover {
     padding: 60px 36px 96px;
   }
 
-  .floral-corner-ornament {
-    right: -45px;
-    top: -50px;
-    width: 230px;
+  .leaf-corner {
+    right: -32px;
+    top: -56px;
+    width: 165px;
   }
 
   .marquee {
@@ -1205,10 +1205,10 @@ footer a:hover {
     width: 100%;
   }
 
-  .floral-corner-ornament {
-    right: -60px;
-    top: -65px;
-    width: 280px;
+  .leaf-corner {
+    right: -42px;
+    top: -70px;
+    width: 195px;
   }
 
   .section {
